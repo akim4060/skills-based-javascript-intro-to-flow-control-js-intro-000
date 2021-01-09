@@ -1,4 +1,7 @@
-function basicTeenager(){
-  if(age>12&&age<20)
-  return "you are a teenager!"
+function canGo(lightColor) {
+  if (lightColor === 'green') {
+    return true
+  }
+ 
+  return false
 }
