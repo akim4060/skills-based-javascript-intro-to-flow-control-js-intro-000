@@ -3,3 +3,10 @@ function basicTeenager(age){
     return "You are a teenager!"
   }
 }
+function teenager(age){
+  if (age>12 && age<20) {
+    return "You are a teenager!"
+  } else {
+    return "you are not a teenager"
+  }
+}
